@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*---------------HOME-----------*/
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: fantasy, sans-serif;
+    background-color: #F0E9E2;
+    overflow-y:hidden;
+    overflow-x: hidden;
+}
+
+.logo{
+    background: url("../images/Logo.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: -webkit-fill-available;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    background-color: #F0E9E2;
+    margin-left: 50px;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.bar{
+    float: none;
+}
+
+.bar > ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: large; 
+}
+
+.bar > ul > li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.bar > ul > li> a{
+    color: #FFFDFA;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.bar > ul > li > a:hover{
+    color: #CBBEB2;
+}
+
+.title{
+    
+}
+
+
+.social-links{
+    background-color: #F0E9E2;
+    display: inline-block;
+    text-align: right;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background:#AA9785;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+.social-links li a i:hover{
+    background: #F0E9E2;
+}
+
+
+/*---------------About-----------*/
+
+.aheading{
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+header{
+    background: #AA9785;
+}
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.profile{
+    background: url(../images/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.aboutme{
+    text-align: right;
+}
+
+/*---------------Portfolio-----------*/
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*---------------Contact-----------*/
+
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #AA9785;
+    color: #fafafa;
+}
+
+
+.center-form{
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+    margin-top: 20px;
+}
+
+
+.titlehome{
+    position: absolute;
+    left: 50px;
+    padding-top: 10px;
+}
+
+.about p{
+    font-size: large;
+}
