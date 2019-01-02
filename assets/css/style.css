@@ -110,10 +110,6 @@ header::after{
     clear: both;
 }
 
-.aheading{
-    padding-bottom: 50px;
-    padding-top: 30px;
-}
 
 .profile{
     background: url(../images/profile.jpg);
